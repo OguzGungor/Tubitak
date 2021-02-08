@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cache_def" />
+            <top_module name="glbl" />
+            <top_module name="ibex_defines" />
+            <top_module name="top_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3329435000000fs"></ZoomStartTime>
+      <ZoomEndTime time="3731435000001fs"></ZoomEndTime>
+      <Cursor1Time time="3664435000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="230"></NameColumnWidth>
+      <ValueColumnWidth column_width="288"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="71" />
+   <wvobject type="logic" fp_name="/top_test/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_instr_cache/instr_rdata_o">
+      <obj_property name="ElementShortName">instr_rdata_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_rdata_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_core/if_stage_i/prefetch_buffer_i/fifo_i/out_ready_i">
+      <obj_property name="ElementShortName">out_ready_i</obj_property>
+      <obj_property name="ObjectShortName">out_ready_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_core/if_stage_i/prefetch_buffer_i/fifo_i/out_rdata_o">
+      <obj_property name="ElementShortName">out_rdata_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_rdata_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_core/id_stage_i/instr">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_core/id_stage_i/decoder_i/opcode">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_core/id_stage_i/instr_multicyle">
+      <obj_property name="ElementShortName">instr_multicyle</obj_property>
+      <obj_property name="ObjectShortName">instr_multicyle</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_core/id_stage_i/select_data_rf">
+      <obj_property name="ElementShortName">select_data_rf[1:0]</obj_property>
+      <obj_property name="ObjectShortName">select_data_rf[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_core/id_stage_i/load_stall">
+      <obj_property name="ElementShortName">load_stall</obj_property>
+      <obj_property name="ObjectShortName">load_stall</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_core/id_stage_i/registers_i/rf_reg">
+      <obj_property name="ElementShortName">rf_reg[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_reg[31:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_spm_ctrl/del_spm_i">
+      <obj_property name="ElementShortName">del_spm_i</obj_property>
+      <obj_property name="ObjectShortName">del_spm_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_spm_ctrl/mem_spm_i">
+      <obj_property name="ElementShortName">mem_spm_i</obj_property>
+      <obj_property name="ObjectShortName">mem_spm_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_spm_ctrl/off_base_i">
+      <obj_property name="ElementShortName">off_base_i</obj_property>
+      <obj_property name="ObjectShortName">off_base_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_spm_ctrl/spm_reg_i">
+      <obj_property name="ElementShortName">spm_reg_i</obj_property>
+      <obj_property name="ObjectShortName">spm_reg_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_spm_ctrl/spm2_reg_i">
+      <obj_property name="ElementShortName">spm2_reg_i</obj_property>
+      <obj_property name="ObjectShortName">spm2_reg_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_core/ex_block_i/spm_read_en_i">
+      <obj_property name="ElementShortName">spm_read_en_i</obj_property>
+      <obj_property name="ObjectShortName">spm_read_en_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_core/ex_block_i/spm_read_ready_i">
+      <obj_property name="ElementShortName">spm_read_ready_i</obj_property>
+      <obj_property name="ObjectShortName">spm_read_ready_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_core/id_stage_i/spm_data_valid_i">
+      <obj_property name="ElementShortName">spm_data_valid_i</obj_property>
+      <obj_property name="ObjectShortName">spm_data_valid_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/rspm_sc">
+      <obj_property name="ElementShortName">rspm_sc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rspm_sc[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/r2spm_sc">
+      <obj_property name="ElementShortName">r2spm_sc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">r2spm_sc[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_core/core_spm_unit/spm_state">
+      <obj_property name="ElementShortName">spm_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">spm_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/free_table_ind">
+      <obj_property name="ElementShortName">free_table_ind[0:3][1:0]</obj_property>
+      <obj_property name="ObjectShortName">free_table_ind[0:3][1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/available">
+      <obj_property name="ElementShortName">available[2:0]</obj_property>
+      <obj_property name="ObjectShortName">available[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_spm_ctrl/reloaded">
+      <obj_property name="ElementShortName">reloaded</obj_property>
+      <obj_property name="ObjectShortName">reloaded</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_spm_ctrl/del_spm_i">
+      <obj_property name="ElementShortName">del_spm_i</obj_property>
+      <obj_property name="ObjectShortName">del_spm_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_spm_ctrl/mem_spm_i">
+      <obj_property name="ElementShortName">mem_spm_i</obj_property>
+      <obj_property name="ObjectShortName">mem_spm_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/core_rd_addr">
+      <obj_property name="ElementShortName">core_rd_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">core_rd_addr[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/core_data_o">
+      <obj_property name="ElementShortName">core_data_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">core_data_o[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/spm1_addr_table">
+      <obj_property name="ElementShortName">spm1_addr_table[0:127][31:0]</obj_property>
+      <obj_property name="ObjectShortName">spm1_addr_table[0:127][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/lspm_addr">
+      <obj_property name="ElementShortName">lspm_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">lspm_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm/spm">
+      <obj_property name="ElementShortName">spm[0:127][31:0]</obj_property>
+      <obj_property name="ObjectShortName">spm[0:127][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_data_cache/cdata/data_mem">
+      <obj_property name="ElementShortName">data_mem[0:31][127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem[0:31][127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_data_cache2/cdata2/data_mem">
+      <obj_property name="ElementShortName">data_mem[0:31][127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem[0:31][127:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_mem_ctrl/conf_addr_i">
+      <obj_property name="ElementShortName">conf_addr_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">conf_addr_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_mem_ctrl/cache_conf_val_i">
+      <obj_property name="ElementShortName">cache_conf_val_i</obj_property>
+      <obj_property name="ObjectShortName">cache_conf_val_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_mem_ctrl/conf_cnt">
+      <obj_property name="ElementShortName">conf_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">conf_cnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/off_base_top">
+      <obj_property name="ElementShortName">off_base_top</obj_property>
+      <obj_property name="ObjectShortName">off_base_top</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/data_base_top">
+      <obj_property name="ElementShortName">data_base_top</obj_property>
+      <obj_property name="ObjectShortName">data_base_top</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_core/core_spm_unit/off_counter">
+      <obj_property name="ElementShortName">off_counter[1:0]</obj_property>
+      <obj_property name="ObjectShortName">off_counter[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_spm_ctrl/off_base_i">
+      <obj_property name="ElementShortName">off_base_i</obj_property>
+      <obj_property name="ObjectShortName">off_base_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_mem_ctrl/lower_addr">
+      <obj_property name="ElementShortName">lower_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">lower_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_mem_ctrl/upper_addr">
+      <obj_property name="ElementShortName">upper_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">upper_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_data_cache/miss_cnt">
+      <obj_property name="ElementShortName">miss_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">miss_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_data_cache/hit_cnt">
+      <obj_property name="ElementShortName">hit_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hit_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_data_cache2/miss_cnt">
+      <obj_property name="ElementShortName">miss_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">miss_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_data_cache2/hit_cnt">
+      <obj_property name="ElementShortName">hit_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hit_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_mem_ctrl/cpu_req_o">
+      <obj_property name="ElementShortName">cpu_req_o</obj_property>
+      <obj_property name="ObjectShortName">cpu_req_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_mem_ctrl/cpu_res_i">
+      <obj_property name="ElementShortName">cpu_res_i</obj_property>
+      <obj_property name="ObjectShortName">cpu_res_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_mem_ctrl/mem_req_i">
+      <obj_property name="ElementShortName">mem_req_i</obj_property>
+      <obj_property name="ObjectShortName">mem_req_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_mem_ctrl/mem_data_o">
+      <obj_property name="ElementShortName">mem_data_o</obj_property>
+      <obj_property name="ObjectShortName">mem_data_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_mem_ctrl/cpu_req_o2">
+      <obj_property name="ElementShortName">cpu_req_o2</obj_property>
+      <obj_property name="ObjectShortName">cpu_req_o2</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_mem_ctrl/cpu_res_i2">
+      <obj_property name="ElementShortName">cpu_res_i2</obj_property>
+      <obj_property name="ObjectShortName">cpu_res_i2</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_mem_ctrl/mem_req_i2">
+      <obj_property name="ElementShortName">mem_req_i2</obj_property>
+      <obj_property name="ObjectShortName">mem_req_i2</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_mem_ctrl/mem_data_o2">
+      <obj_property name="ElementShortName">mem_data_o2</obj_property>
+      <obj_property name="ObjectShortName">mem_data_o2</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_data_cache/rstate">
+      <obj_property name="ElementShortName">rstate[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rstate[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_data_cache/mem_req">
+      <obj_property name="ElementShortName">mem_req</obj_property>
+      <obj_property name="ObjectShortName">mem_req</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_data_cache/mem_data">
+      <obj_property name="ElementShortName">mem_data</obj_property>
+      <obj_property name="ObjectShortName">mem_data</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/spm_req_cnt">
+      <obj_property name="ElementShortName">spm_req_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">spm_req_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/spm_hit_cnt">
+      <obj_property name="ElementShortName">spm_hit_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">spm_hit_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/spm_miss_cnt">
+      <obj_property name="ElementShortName">spm_miss_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">spm_miss_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_test/DUT/u_spm_ctrl/mem_req_data_o">
+      <obj_property name="ElementShortName">mem_req_data_o</obj_property>
+      <obj_property name="ObjectShortName">mem_req_data_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/mem_data_i">
+      <obj_property name="ElementShortName">mem_data_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/offset1">
+      <obj_property name="ElementShortName">offset1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">offset1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/offset2">
+      <obj_property name="ElementShortName">offset2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">offset2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/mem_addr_tracer">
+      <obj_property name="ElementShortName">mem_addr_tracer[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr_tracer[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/mem_rd_addr_o">
+      <obj_property name="ElementShortName">mem_rd_addr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_rd_addr_o[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/read_buffer">
+      <obj_property name="ElementShortName">read_buffer[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_buffer[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/lspm_sc">
+      <obj_property name="ElementShortName">lspm_sc[3:0]</obj_property>
+      <obj_property name="ObjectShortName">lspm_sc[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/spm0">
+      <obj_property name="ElementShortName">spm0[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">spm0[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_test/DUT/u_spm_ctrl/spm0_cnt">
+      <obj_property name="ElementShortName">spm0_cnt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">spm0_cnt[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

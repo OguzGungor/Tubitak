@@ -1,0 +1,41 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../../../Downloads/modules/modules/cache_def.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/rtl/ibex_defines.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/rtl/ibex_alu.sv" \
+"../../../../../../IBEX/ibex_ex_2/rtl/ibex_compressed_decoder.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/rtl/ibex_controller.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/rtl/ibex_core.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/rtl/ibex_cs_registers.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/rtl/ibex_decoder.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/rtl/ibex_ex_block.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/rtl/ibex_fetch_fifo.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/rtl/ibex_id_stage.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/rtl/ibex_if_stage.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/rtl/ibex_int_controller.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/rtl/ibex_load_store_unit.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/rtl/ibex_multdiv_fast.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/rtl/ibex_multdiv_slow.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/rtl/ibex_prefetch_buffer.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/rtl/ibex_register_file_ff.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/examples/fpga/artya7-100/rtl/prim_clock_gating.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/examples/fpga/artya7-100/rtl/ram_1p.sv" \
+"../../../../check8114.srcs/sources_1/new/spm.sv" \
+"../../../../check8114.srcs/sources_1/new/spm_controller.sv" \
+"../../../../check8114.srcs/sources_1/new/spm_lsu.sv" \
+"../../../../../spm_and_cache/bfs_edgelist_vivado_run/check8114.srcs/sources_1/imports/new/mem_controller.sv" \
+"../../../../../spm_and_cache/bfs_edgelist_vivado_run/check8114.srcs/sources_1/imports/new/dm_cache_tag.sv" \
+"../../../../../spm_and_cache/bfs_edgelist_vivado_run/check8114.srcs/sources_1/imports/new/instr_cache.sv" \
+"../../../../../spm_and_cache/bfs_edgelist_vivado_run/check8114.srcs/sources_1/imports/new/dm_cache_data.sv" \
+"../../../../../spm_and_cache/bfs_edgelist_vivado_run/check8114.srcs/sources_1/imports/new/dm_cache_fsm.sv" \
+"../../../../check8114.srcs/sources_1/new/dm_cache_fsm2.sv" \
+"../../../../check8114.srcs/sources_1/new/dm_cache_tag2.sv" \
+"../../../../check8114.srcs/sources_1/new/dm_cache_data2.sv" \
+"../../../../check8114.srcs/sources_1/imports/Desktop/IBEX/ibex_work/examples/fpga/artya7-100/rtl/top_artya7_100.sv" \
+"../../../../check8114.srcs/sim_1/new/top_test.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
